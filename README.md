@@ -1,2 +1,4 @@
-# ICPA
-Internet Connected Power Analyzer
+ICPA - Internet Connected Power Analyzer
+
+Read wiki:
+https://github.com/TSalwach/ICPA/wiki
