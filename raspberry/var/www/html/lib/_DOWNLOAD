@@ -1,0 +1,6 @@
+#!/bin/bash
+#wget http://code.jquery.com/jquery-1.11.3.min.js -O jquery.min.js
+#wget http://jqueryui.com/resources/download/jquery-ui-1.11.4.zip
+#wget http://code.highcharts.com/zips/Highcharts-4.2.1.zip
+wget http://jqueryui.com/resources/download/jquery-ui-themes-1.11.4.zip
+#wget https://github.com/jamietre/ImageMapster/archive/master.zip -O mapster.zip

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O2 -c -DSTM32F072RB -I..\..\..\workspace\icpa\cmsis_boot -I..\..\..\workspace\icpa\cmsis_lib -I..\..\..\workspace\icpa -I..\..\..\workspace\icpa\cmsis_lib\include -I..\..\..\workspace\icpa\cmsis_core -I..\..\..\workspace">
+      <target file="syscalls.o" lastModified="152413bf394">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15163977bc3"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="152413bf308">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_gpio.c" lastModified="15114f78d6a"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="152413bef02">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_rcc.c" lastModified="15114f78d3c"/>
+      </target>
+      <target file="stm32f0xx_usart.o" lastModified="152413bf470">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_usart.c" lastModified="15114f88c55"/>
+      </target>
+      <target file="stm32f0xx_dma.o" lastModified="152413bf27f">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_dma.c" lastModified="15114ff4e30"/>
+      </target>
+      <target file="stm32f0xx_adc.o" lastModified="152413befc8">
+         <source file="..\..\..\cmsis_lib\source\stm32f0xx_adc.c" lastModified="15114f78d2c"/>
+      </target>
+      <target file="main.o" lastModified="152413bf1a5">
+         <source file="..\..\..\main.c" lastModified="152357b60f2"/>
+      </target>
+      <target file="system_stm32f0xx.o" lastModified="152413bf4d2">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="15114f78d4b"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="152413bf1bc">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="15114f78d3c"/>
+      </target>
+   </processor>
+</history>

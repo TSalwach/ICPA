@@ -1,0 +1,6 @@
+/DATA_START/,/DATA_END/ {
+s/DATA_START/{/
+s/DATA_END/}\n/
+p
+}
+28q

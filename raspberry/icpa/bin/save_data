@@ -1,0 +1,5 @@
+#!/bin/bash
+FILE=`date -d "yesterday 12:00" +pwr-%Y-%j`
+
+cp /icpa/tmp/totals /icpa/state
+mv /icpa/tmp/$FILE /icpa/data 2>/dev/null

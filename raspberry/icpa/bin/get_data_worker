@@ -1,0 +1,9 @@
+#!/bin/bash
+PORT="/dev/ttyAMA0"
+stty -F $PORT 1000000 raw
+while true; do 
+    sed -n -u -f /icpa/bin/data_sed $PORT > /icpa/tmp/data_tmp
+    cp /icpa/tmp/data_tmp /icpa/tmp/data
+    php /icpa/bin/data_input.php
+    echo got it
+done

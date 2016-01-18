@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=icpa.map -O2 --gc-sections --specs=nano.specs -u _printf_float -LC:\ARM\CooCox\CoIDE\configuration\ProgramData\icpa -TC:\ARM\CooCox\CoIDE\configuration\ProgramData\icpa/arm-gcc-link.ld -g -L..\..\.. -lm">
+      <target file="icpa.elf" lastModified="152413bf8f3">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="152413bef02"/>
+         <source file="..\obj\stm32f0xx_adc.o" lastModified="152413befc8"/>
+         <source file="..\obj\main.o" lastModified="152413bf1a5"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="152413bf1bc"/>
+         <source file="..\obj\stm32f0xx_dma.o" lastModified="152413bf27f"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="152413bf308"/>
+         <source file="..\obj\syscalls.o" lastModified="152413bf394"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="152413bf470"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="152413bf4d2"/>
+      </target>
+   </processor>
+</history>
